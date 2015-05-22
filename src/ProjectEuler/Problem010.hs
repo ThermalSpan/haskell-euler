@@ -1,0 +1,1 @@
+module ProjectEuler.Problem010 (solution010) where
