@@ -1,6 +1,7 @@
 module ProjectEuler.Problem003 (solution003) where
 
 import Util
+import Primes
 
 findFactor :: Integer -> [Integer] -> Integer
 findFactor _ [] = 1

@@ -1,6 +1,7 @@
 module ProjectEuler.Problem007 (solution007) where
 
 import Util 
+import Primes
 
 --10001 prime, when indexing starts at 0 is 10000
 solution007 :: Integer

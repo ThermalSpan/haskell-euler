@@ -4,7 +4,7 @@
 name:                projecteuler
 version:             0.1.0.0
 synopsis:            Organized solutions to Project Euler problems.
-license:             PublicDomain
+license:             BSD3
 license-file:        LICENSE
 author:              Russell Bentley
 maintainer:          russell.bentley@Uconn.edu
@@ -21,7 +21,7 @@ executable projecteuler
   hs-source-dirs:      src
   main-is:             Main.hs
   --Show all warnings, all warnings are errors, use all non-dangerous optimizations
-  build-depends: base, formatting, clock, containers
-  ghc-options:         -Wall -Werror -O2
+  build-depends: base, formatting, clock, containers, PSQueue
+  ghc-options:         -Wall -O2
 
 
